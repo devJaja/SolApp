@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "SolApp",
+    "slug": "solapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appicon.png",
+    "scheme": "solapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/appicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/not.png",
+      "bundleIdentifier": "com.arome.dev.solapp",
+      "associatedDomains": ["applinks:solapp.app"]
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode":"pan",
+      "package": "com.arome.dev.solapp",
+      "notification": {
+        "icon": "./assets/images/not.png",
+        "color": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "solapp.app",
+              "pathPrefix": "/"
+            },
+            {
+              "scheme": "solapp"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router", 
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/not.png",
+          "color": "#ffffff",
+          "sounds": []
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "64803ab9-5b38-4915-8ca0-dd5959d6c313"
+      }
+    }
+  }
+}
