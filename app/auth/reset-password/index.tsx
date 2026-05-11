@@ -36,7 +36,7 @@ export default function ResetPasswordScreen() {
 
     setIsResetting(true);
     try {
-      const response = await api.resetPasswordWithCode(email ?? '', code, password);
+      const response = await api.resetPassword({ token: code, password });
       if ((response as any).error) throw new Error((response as any).error);
       setResetSuccess(true);
       toast.success(t('auth.passwordResetSuccessToast'));
