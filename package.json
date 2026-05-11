@@ -43,7 +43,7 @@
     "expo-image-picker": "~17.0.11",
     "expo-linking": "~8.0.12",
     "expo-local-authentication": "~17.0.8",
-    "expo-localization": "^55.0.8",
+    "expo-localization": "^17.0.8",
     "expo-notifications": "~0.32.17",
     "expo-router": "~6.0.19",
     "expo-splash-screen": "~31.0.12",
