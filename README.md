@@ -131,8 +131,8 @@ Validators compute on ciphertexts. The actual values are never decrypted on-chai
 |---|---|---|
 | Ika dWallet | Devnet | `87W54kGYFQ1rgWqMeu4XTPHWXWmXSQCcjm8vCTfiq1oY` |
 | Encrypt | Devnet | `4ebfzWdKnrnGseuQpezXdG8yCdHqwQ1SSBHD3bWArND8` |
-| solapp-custody | Devnet | Deploy → set `SOLAPP_CUSTODY_PROGRAM_ID` |
-| solapp-privacy | Devnet | Deploy → set `SOLAPP_PRIVACY_PROGRAM_ID` |
+| solapp-custody | Devnet | `8nWefFt12D1t6TyjBfk6V4CuTeVwjKNXHMcpZQqSpJVF` |
+| solapp-privacy | Devnet | `9SszUmTNFZq2Hnb4Y3XPLAsDwc4CVQZuaxcDbxmtqWe4` |
 
 **Live Backend:** `https://solcial-backend.onrender.com/api`  
 **Health:** `https://solcial-backend.onrender.com/api/health`
